@@ -1,0 +1,89 @@
+/***************** resolução 908 ou menor *****************/
+@media only screen and (max-width: 908px) {
+	
+	.bt_info , .bt_insc{ margin: 5px 0 auto  3% !important;}
+	.bt_info{
+		width: 94%;
+		float: left;
+	}
+	.bt_insc{
+		width: 94%;
+		float: left;
+		margin-top: 4px;
+	}	
+}
+
+/*********************** Resolução Padrão **************************/
+
+.fundo-logo{
+	width: 200px;
+	height: 100px;
+	background-color: rgb (255, 255, 23 , 0.7) transparent;
+	background: rgba(255, 255, 23, 0.7);
+	border-radius: 12px;
+	float: left;
+}
+.logo{
+	margin: 20px auto auto 10px;
+}
+.menu li{
+	margin-bottom: 32px;
+}
+img{
+	max-width: 180px;
+}
+.menu li.active a, .menu li a{
+	font-weight: bolder;
+	text-shadow: 1px 2px #E59B2A;
+	font-size: 100%;
+}
+.menu li.active a, .menu li a:hover{
+	font-size: 120%;
+	text-shadow: 1px 2px black;
+}
+.menu li.active a, .menu li {
+	margin-left:auto;
+	margin-right: auto;
+}
+.da-slide p, h2{
+	color: yellow !important;
+	text-shadow: 3px 3px black;
+	font-weight: bolder!important;
+}
+.da-slide .a{
+	text-shadow: 1px 1px black;
+}
+.bt_info, .bt_insc{
+	width: 125px;
+	height: 45px;
+	border: none !important;
+	border-radius: 7px;
+	margin: 0 8px 0 8px;
+	font-weight: bold;
+	-webkit-transition: all 1.7s ease-in-out;
+   -moz-transition: all 1.7s ease-in-out;
+   -o-transition: all 1.7s ease-in-out;
+   -ms-transition: all 1.7s ease-in-out;
+   transition: all 1.7s ease-in-out;
+}
+.bt_info{ background-color: #fff ; color: black;}
+.bt_insc{ background-color: #fff ; color: black;}
+.bt_info:hover{ background-color: rgba(255, 153, 0, 0.78); color: white;}
+.bt_insc:hover{ background-color: rgba(66, 170, 66, 0.88); color: white;}
+.bt_info:hover, .bt_insc:hover{
+	cursor: pointer;
+}
+.bt_info{
+	float: left;
+}
+.bt_insc{
+	float: right;
+}
+.info{
+	border-radius: 7px;
+}
+/******Admin*********/
+.navbar-right{margin-right: 15px!important;}
+.navbar .navbar-default .navbar-fixed-top{position: fixed;}
+.conteudo{margin-top: 70px!important}
+/*.row,.col-xs-12 .col-md-8,.col-xs-6 .col-md-4{border:solid red;}*/
